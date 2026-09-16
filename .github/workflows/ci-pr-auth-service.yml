@@ -8,6 +8,7 @@ on:
       - '.github/workflows/ci-pr-auth-service.yml'
 
 permissions:
+  id-token: write
   contents: read
   pull-requests: read
   security-events: write
